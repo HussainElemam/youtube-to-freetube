@@ -16,19 +16,9 @@ A simple Chrome extension that automatically redirects YouTube links to the Free
 3. Enable "Developer mode" in the top right
 4. Click "Load unpacked" and select the extension directory
 
-## Requirements
-
-- Google Chrome browser
-- FreeTube app installed on your system
-- FreeTube app properly configured to handle `freetube://` protocol
-
 ## How it Works
 
 The extension intercepts YouTube URLs and converts them to the FreeTube protocol format. For example:
 
 - From: `https://www.youtube.com/watch?v=VIDEO_ID`
 - To: `freetube://www.youtube.com/watch?v=VIDEO_ID`
-
-## License
-
-MIT License
